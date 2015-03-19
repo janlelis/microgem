@@ -5,9 +5,5 @@ Yet another [thor](http://whatisthor.com/) based gem generator. Not much options
 
 ## Usage
 
-   $ microgem gem_name
+    $ microgem gem_name
 
-
-## J-_-L
-
-Copyright (C) 2015 [Jan Lelis](http://janlelis.com). MIT Licese.
