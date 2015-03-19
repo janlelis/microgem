@@ -1,0 +1,19 @@
+# -*- encoding: utf-8 -*-
+
+require File.dirname(__FILE__) + "/lib/<%= path %>/version"
+
+Gem::Specification.new do |gem|
+  gem.name          = "<%= name %>"
+  gem.version       = <%= module_name %>::VERSION
+  gem.summary       = "<%= info %>"
+  gem.description   = "<%= info %>"
+  gem.authors       = ["<%= settings['author'] %>"]
+  gem.email         = "mail@janlelis.de"
+  gem.homepage      = "https://github.com/<%= settings['github'] %>/<%= github_name %>"
+  gem.license       = "MIT"
+
+  gem.files         = Dir['{**/}{.*,*}'].select { |path| File.file?(path) }
+  gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
+  gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
+  gem.require_paths = ['lib']
+end

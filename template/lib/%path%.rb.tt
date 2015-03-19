@@ -1,0 +1,6 @@
+require_relative "<%= last_name %>/version"
+
+<% sub_modules.each.with_index do |sub_module, index| %><%= "  " * index %><%= module_def(index) %> <%= sub_module %>
+<% end %><% sub_modules.size.downto(1) do |index| %><%= "  " * (index - 1) %>end
+<% end %>
+
