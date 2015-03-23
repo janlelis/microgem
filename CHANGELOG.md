@@ -1,5 +1,10 @@
 ## CHANGELOG
 
+### 1.0.3
+
+* Add IRB task
+
+
 ### 1.0.2
 
 * Fix spec name in .travis.yml
