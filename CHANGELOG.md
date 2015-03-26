@@ -3,6 +3,7 @@
 ### 1.0.3
 
 * Add IRB task
+* Make travis run faster
 
 
 ### 1.0.2

@@ -1,3 +1,4 @@
+sudo: false
 language: ruby
 
 script: bundle exec ruby spec/<%= spec_name %>_spec.rb
@@ -10,3 +11,8 @@ rvm:
 - jruby-head
 - jruby-9000
 
+cache:
+- bundler
+
+matrix:
+  fast_finish: true
