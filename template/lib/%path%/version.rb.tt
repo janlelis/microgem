@@ -2,4 +2,3 @@
 <% end %><%= "  " * sub_modules.size %>VERSION = "<%= version %>".freeze
 <% sub_modules.size.downto(1) do |index| %><%= "  " * (index - 1) %>end
 <% end %>
-
