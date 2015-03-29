@@ -14,5 +14,5 @@ rvm:
 cache:
 - bundler
 
-matrix:
-  fast_finish: true
+# matrix:
+#   fast_finish: true

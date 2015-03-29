@@ -1,5 +1,10 @@
 ## CHANGELOG
 
+### 1.0.4
+
+* .travis.yml: Fast finish should not be on by default
+
+
 ### 1.0.3
 
 * Add IRB task
