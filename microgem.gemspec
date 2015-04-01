@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 
-require File.dirname(__FILE__) + '/lib/microgem/version'
+require File.dirname(__FILE__) + "/lib/microgem/version"
 
 Gem::Specification.new do |gem|
   gem.name          = "microgem"
@@ -12,8 +12,8 @@ Gem::Specification.new do |gem|
   gem.homepage      = "https://github.com/janlelis/microgem"
   gem.license       = "MIT"
 
-  gem.files         = Dir['{**/}{.*,*}'].select{ |path| File.file?(path) && path !~ /^pkg/ }
+  gem.files         = Dir["{**/}{.*,*}"].select{ |path| File.file?(path) && path !~ /^pkg/ }
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.require_paths = ['lib']
+  gem.require_paths = ["lib"]
 end
