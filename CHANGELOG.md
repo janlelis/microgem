@@ -3,6 +3,8 @@
 ### 1.0.4
 
 * .travis.yml: Fast finish should not be on by default
+* gemspec: email data as array
+* .gitignore: add /pkg
 
 
 ### 1.0.3
