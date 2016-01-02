@@ -1,5 +1,9 @@
 ## CHANGELOG
 
+### 1.0.5
+
+* Add 2.3 + HEAD to .travis.yml
+
 ### 1.0.4
 
 * .travis.yml: Fast finish should not be on by default
