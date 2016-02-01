@@ -4,7 +4,7 @@ language: ruby
 script: bundle exec ruby spec/<%= spec_name %>_spec.rb
 
 rvm:
-- 2.3
+- 2.3.0
 - 2.2
 - 2.1
 - 2.0

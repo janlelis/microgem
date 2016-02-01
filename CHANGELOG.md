@@ -1,5 +1,9 @@
 ## CHANGELOG
 
+### 1.0.6
+
+* Fix for travis Ruby 2.3.0
+
 ### 1.0.5
 
 * Add 2.3 + HEAD to .travis.yml
