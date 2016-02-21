@@ -2,6 +2,7 @@
 
 ### 1.0.6
 
+* Add missing thor dependency
 * Add Code of Conduct
 * Fix for travis Ruby 2.3.0
 
