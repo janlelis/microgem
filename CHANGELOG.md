@@ -1,5 +1,9 @@
 ## CHANGELOG
 
+### 1.0.7
+
+* Remove Ruby 2.0 from travis
+
 ### 1.0.6
 
 * Add missing thor dependency
