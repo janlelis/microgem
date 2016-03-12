@@ -78,6 +78,10 @@ class Microgem::Generator < Thor::Group
     path[%r<[^/]+$>]
   end
 
+  def specs
+    options[:specs]
+  end
+
   def github_name
     options[:github] || name
   end

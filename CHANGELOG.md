@@ -3,6 +3,7 @@
 ### 1.0.7
 
 * Remove Ruby 2.0 from travis
+* Also generate Rake default spec task
 
 ### 1.0.6
 
