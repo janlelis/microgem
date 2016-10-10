@@ -1,4 +1,4 @@
-# <%= name %> [![[version]](https://badge.fury.io/rb/<%= name %>.svg)](http://badge.fury.io/rb/<%= name %>)  [![[travis]](https://travis-ci.org/<%= settings['github'] %>/<%= github_name %>.png)](https://travis-ci.org/<%= settings['github'] %>/<%= github_name %>)
+# <%= name %> [![[version]](https://badge.fury.io/rb/<%= name %>.svg)](http://badge.fury.io/rb/<%= name %>)  [![[travis]](https://travis-ci.org/<%= settings['github'] %>/<%= github_name %>.svg)](https://travis-ci.org/<%= settings['github'] %>/<%= github_name %>)
 
 <%= info %>
 

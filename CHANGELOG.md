@@ -4,6 +4,7 @@
 
 * travis: Remove Ruby 2.0, update JRuby 9000
 * Also generate Rake default spec task
+* Use .svg badge for travis
 
 ### 1.0.6
 
