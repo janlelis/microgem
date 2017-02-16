@@ -1,5 +1,9 @@
 ## CHANGELOG
 
+### 1.0.8
+
+* travis.yml: Update Rubies, allow failures for -head
+
 ### 1.0.7
 
 * travis: Remove Ruby 2.0, remove rbx, update JRuby 9000
