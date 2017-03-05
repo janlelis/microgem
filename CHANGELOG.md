@@ -1,5 +1,9 @@
 ## CHANGELOG
 
+### 1.0.9
+
+* Fix typo in CHANGELOG template: Inital -> Initial
+
 ### 1.0.8
 
 * travis.yml: Update Rubies, allow failures for -head
