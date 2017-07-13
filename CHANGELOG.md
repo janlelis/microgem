@@ -1,5 +1,10 @@
 ## CHANGELOG
 
+### 1.0.10
+
+* travis.yml: Update Rubies
+* Remove thor warnings
+
 ### 1.0.9
 
 * Fix typo in CHANGELOG template: Inital -> Initial
