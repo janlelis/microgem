@@ -13,8 +13,8 @@ class Microgem::Generator < Thor::Group
   argument :name
   class_option :version, default: "0.1.0"
   class_option :info, default: "TODO"
-  class_option :specs, default: true
-  class_option :class, default: false
+  class_option :specs, default: true, type: :boolean
+  class_option :class, default: false, type: :boolean
   class_option :github
 
   attr_reader :settings
