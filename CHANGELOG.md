@@ -1,6 +1,6 @@
 ## CHANGELOG
 
-### Next
+### 1.0.11
 
 * travis.yml: Update Rubies, remove `cache: bundler`
 * Only generate double quotes
