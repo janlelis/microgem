@@ -2,17 +2,14 @@ sudo: false
 language: ruby
 
 rvm:
-- 2.4.1
-- 2.3.4
+- 2.4.2
+- 2.3.5
 - 2.2
 - 2.1
 - 2.0
-- jruby-9.1.12.0
+- jruby-9.1.14.0
 - ruby-head
 - jruby-head
-
-cache:
-- bundler
 
 matrix:
   allow_failures:

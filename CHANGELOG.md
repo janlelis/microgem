@@ -1,5 +1,9 @@
 ## CHANGELOG
 
+### Next
+
+* travis.yml: Update Rubies, remove `cache: bundler`
+
 ### 1.0.10
 
 * travis.yml: Update Rubies
