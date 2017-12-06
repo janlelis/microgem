@@ -3,6 +3,7 @@
 ### Next
 
 * travis.yml: Update Rubies, remove `cache: bundler`
+* Only generate double quotes
 
 ### 1.0.10
 
