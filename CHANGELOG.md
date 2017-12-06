@@ -4,6 +4,7 @@
 
 * travis.yml: Update Rubies, remove `cache: bundler`
 * Only generate double quotes
+* Add "rake" to Gemfile
 
 ### 1.0.10
 
