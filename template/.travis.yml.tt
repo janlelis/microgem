@@ -2,18 +2,20 @@ sudo: false
 language: ruby
 
 rvm:
-- 2.4.2
-- 2.3.5
+- ruby-head
+- 2.5.0
+- 2.4.3
+- 2.3.6
 - 2.2
 - 2.1
 - 2.0
-- jruby-9.1.14.0
-- ruby-head
 - jruby-head
+- jruby-9.1.15.0
 
 matrix:
   allow_failures:
-    - rvm: jruby-head
     - rvm: ruby-head
+    - rvm: jruby-head
+    - rvm: 2.1
     - rvm: 2.0
 #   fast_finish: true
