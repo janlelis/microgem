@@ -1,5 +1,9 @@
 ## CHANGELOG
 
+### 1.0.13
+
+* travis.yml: Update Rubies
+
 ### 1.0.12
 
 * travis.yml: Update Rubies
