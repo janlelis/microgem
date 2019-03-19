@@ -1,5 +1,9 @@
 ## CHANGELOG
 
+### 1.0.17
+
+* travis.yml: Update to Ruby 2.5.5
+
 ### 1.0.16
 
 * travis.yml: Update to Ruby 2.6.2, 2.5.4
