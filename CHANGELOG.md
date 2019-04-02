@@ -1,5 +1,10 @@
 ## CHANGELOG
 
+### 1.0.19
+
+* Add IRB to Gemfile (for bundler)
+* Small tweaks (https link, prefer double quotes)
+
 ### 1.0.18
 
 * travis.yml: Slim down
