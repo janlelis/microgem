@@ -1,5 +1,9 @@
 ## CHANGELOG
 
+### 1.0.18
+
+* travis.yml: Slim down
+
 ### 1.0.17
 
 * travis.yml: Update to Ruby 2.5.5
