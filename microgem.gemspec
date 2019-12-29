@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.summary       = "Generates new micro gems."
   gem.description   = "Generates new micro gems. Usage: $ microgem gem_name"
   gem.authors       = ["Jan Lelis"]
-  gem.email         = "mail@janlelis.de"
+  gem.email         = ["hi@ruby.consulting"]
   gem.homepage      = "https://github.com/janlelis/microgem"
   gem.license       = "MIT"
 
