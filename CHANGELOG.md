@@ -1,5 +1,9 @@
 ## CHANGELOG
 
+### 1.0.20
+
+* travis.yml: Update Rubies, add 2.7
+
 ### 1.0.19
 
 * Add IRB to Gemfile (for bundler)
