@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative "<%= last_name %>/version"
 
 <% sub_modules.each.with_index do |sub_module, index| %><%= "  " * index %><%= module_def(index) %> <%= sub_module %>

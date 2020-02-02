@@ -1,4 +1,6 @@
+# frozen_string_literal: true
+
 <% sub_modules.each.with_index do |sub_module, index| %><%= "  " * index %><%= module_def(index) %> <%= sub_module %>
-<% end %><%= "  " * sub_modules.size %>VERSION = "<%= version %>".freeze
+<% end %><%= "  " * sub_modules.size %>VERSION = "<%= version %>"
 <% sub_modules.size.downto(1) do |index| %><%= "  " * (index - 1) %>end
 <% end %>

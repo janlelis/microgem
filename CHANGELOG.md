@@ -1,5 +1,9 @@
 ## CHANGELOG
 
+### Next
+
+* Use frozen strings in generated Ruby files
+
 ### 1.0.20
 
 * travis.yml: Update Rubies, add 2.7
