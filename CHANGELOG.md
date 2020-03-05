@@ -1,5 +1,9 @@
 ## CHANGELOG
 
+### Next
+
+* travis.yml: Update JRuby to 9.2.11.0
+
 ### 1.0.21
 
 * Use frozen strings in generated Ruby files
