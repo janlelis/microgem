@@ -3,6 +3,7 @@
 ### Next
 
 * travis.yml: Update JRuby to 9.2.11.0
+* travis.yml: Don't test 2.3 anymore
 
 ### 1.0.21
 
