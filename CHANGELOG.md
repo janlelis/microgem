@@ -1,5 +1,9 @@
 ## CHANGELOG
 
+### Next
+
+* travis.yml: Update JRuby to 9.2.11.1
+
 ### 1.0.22
 
 * travis.yml: Update JRuby to 9.2.11.0
