@@ -8,11 +8,10 @@ rvm:
 - 2.4
 - ruby-head
 - jruby-9.2.11.1
-- truffleruby
+- truffleruby-20.2.0
 
 matrix:
   allow_failures:
     - rvm: 2.4
     - rvm: ruby-head
-    - rvm: truffleruby
 #   fast_finish: true
