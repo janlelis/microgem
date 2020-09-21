@@ -1,7 +1,8 @@
 ## CHANGELOG
 
-### Next
+### 1.0.23
 
+* travis.yml: Specify TruffleRuby at 20.2.0 and remove it from allowed failed
 * travis.yml: Update JRuby to 9.2.11.1
 
 ### 1.0.22
