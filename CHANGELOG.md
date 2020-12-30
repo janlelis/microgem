@@ -1,7 +1,8 @@
 ## CHANGELOG
 
-### 1.1.0 (unreleased)
+### 1.1.0
 
+* Move from Travis CI to GitHub CI
 * Rakefile: Make spec runner windows compatible
 
 ### 1.0.23
