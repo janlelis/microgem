@@ -69,7 +69,7 @@ class Microgem::Generator < Thor::Group
   def path
     name.gsub(/-[_-]*(?![_-]|$)/){ '/' }
   end
-  
+
   def spec_name
     name.gsub(/-[_-]*(?![_-]|$)/){ '_' }
   end
@@ -99,10 +99,10 @@ class Microgem::Generator < Thor::Group
   end
 
   def generate
-    directory ".", name,  exclude_pattern: %r<_spec.rb|Gemfile|\.travis\.yml>
+    directory ".", name,  exclude_pattern: %r<_spec.rb|Gemfile|\.github>
     if options[:specs]
       directory "spec", name + "/spec"
-      template ".travis.yml", name + "/.travis.yml"
+      directory ".github", name + "/.github"
       copy_file "Gemfile", name + "/Gemfile"
     end
   end
