@@ -1,5 +1,9 @@
 ## CHANGELOG
 
+### 1.1.0 (unreleased)
+
+* Rakefile: Make spec runner windows compatible
+
 ### 1.0.23
 
 * travis.yml: Specify TruffleRuby at 20.2.0 and remove it from allowed failed
