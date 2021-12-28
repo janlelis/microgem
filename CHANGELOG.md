@@ -1,5 +1,10 @@
 ## CHANGELOG
 
+### 1.1.1
+
+* Update CI Rubies to late 2021
+* Add MFA requirement to gemspec
+
 ### 1.1.0
 
 * Move from Travis CI to GitHub CI
